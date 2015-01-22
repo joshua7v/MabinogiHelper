@@ -1,0 +1,40 @@
+//
+//  SeraphPrefixHeader.pch
+//  天平成绩查询
+//
+//  Created by Joshua on 14/12/7.
+//  Copyright (c) 2014年 SigmaStudio. All rights reserved.
+//
+
+#ifndef _______SeraphPrefixHeader_pch
+#define _______SeraphPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+//#import "UIImage+MJ.h"NSString+Seraph.h
+#import "SeraphCommon.h"
+#import "SeraphCategory.h"
+
+// 判断是否为iOS7
+#define iOS7 ([[UIDevice currentDevice].systemVersion doubleValue] >= 7.0)
+
+// 获得RGB颜色
+#define SeraphColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+// 自定义Log
+#ifdef DEBUG
+#define SeraphLog(...) NSLog(__VA_ARGS__)
+#else
+#define SeraphLog(...)
+#endif
+
+#endif
+
+
+
+#endif

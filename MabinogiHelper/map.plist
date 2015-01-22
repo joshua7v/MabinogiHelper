@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>いびき防止ポーション (ティルコネイル)</key>
+	<string>预防打鼾药 (迪尔科内尔)</string>
+	<key>アブネアネア湖の北西</key>
+	<string>阿布内尔西北部</string>
+	<key>アブネアネア湖の南東</key>
+	<string>阿布内尔东南</string>
+	<key>アブネアネア湖の南西</key>
+	<string>阿布内尔西南</string>
+	<key>アブネアネア湖西</key>
+	<string>阿布内尔西</string>
+	<key>インキュバススーツ (ダンバートン)</key>
+	<string>男妖正装 (敦巴伦)</string>
+	<key>オルゴール保存石 (タルティーン)</key>
+	<string>音乐盒保存石 (塔汀)</string>
+	<key>オーガキラーの仮面 (ダンバートン)</key>
+	<string>食人魔屠夫假面 (敦巴伦)</string>
+	<key>カブ産カキ (カブ)</key>
+	<string>卡普海贝 (卡普港口)</string>
+	<key>カブ産海苔 (カブ)</key>
+	<string>卡普海苔 (卡普港口)</string>
+	<key>ガイレフの丘ラインアルトの南</key>
+	<string>盖尔茨丘陵南</string>
+	<key>ガイレフの丘ラインアルト東</key>
+	<string>盖尔茨丘陵东</string>
+	<key>ガイレフの丘ラインアルトの南東</key>
+	<string>盖尔茨丘陵东南</string>
+	<key>ガイレフの丘フィアードダンジョン</key>
+	<string>菲奥娜地下城附近</string>
+	<key>コリブ渓谷北</key>
+	<string>考利芙峡谷北</string>
+	<key>コリブ渓谷南</key>
+	<string>考利芙峡谷南</string>
+	<key>スケルトンオーガアーマー (ベルファスト)</key>
+	<string>骷髅食人魔铠甲 (贝尔法斯特)</string>
+	<key>スリアブクィリンの岩石地帯</key>
+	<string>斯利比岩石地带</string>
+	<key>スリアブクィリンの岩石地帯東</key>
+	<string>斯利比岩石地带东</string>
+	<key>スリアブクィリンの岩石地帯西</key>
+	<string>斯利比岩石地带西部</string>
+	<key>スリアブクィリン西</key>
+	<string>斯利比西部</string>
+	<key>センマイ平原の北西</key>
+	<string>仙魔平原西北</string>
+	<key>センマイ平原の南東</key>
+	<string>仙魔平原东南</string>
+	<key>センマイ平原ペッカダンジョン</key>
+	<string>皮卡地下城边</string>
+	<key>センマイ平原北</key>
+	<string>仙魔平原北</string>
+	<key>センマイ平原南</key>
+	<string>仙魔平原南</string>
+	<key>ゼリークラゲ (カブ)</key>
+	<string>海蜇 (卡普港口)</string>
+	<key>タルティーンの南西</key>
+	<string>塔汀西南</string>
+	<key>タルティーンストーンヘンジ西</key>
+	<string>塔汀巨石群西</string>
+	<key>タルティーン南</key>
+	<string>塔汀南</string>
+	<key>タルティーン墓地</key>
+	<string>塔汀墓地</string>
+	<key>ダイエットポーション (ティルコネイル)</key>
+	<string>减肥药水 (迪尔科内尔)</string>
+	<key>ダークソード (ベルファスト)</key>
+	<string>黑光剑 (贝尔法斯特)</string>
+	<key>ティーテーブル (タラ)</key>
+	<string>茶几 (塔拉)</string>
+	<key>トゥガルドアイルの南</key>
+	<string>杜加德走廊南</string>
+	<key>トゥガルドアイルの南東</key>
+	<string>杜加德走廊东南部</string>
+	<key>トゥガルドアイルの東</key>
+	<string>杜加德走廊东部</string>
+	<key>トゥガルドアイル伐採キャンプ東</key>
+	<string>伐木场东部</string>
+	<key>トゥガルドアイル伐採キャンプの南東</key>
+	<string>伐木场南部</string>
+	<key>トリュフパスタ (イメンマハ)</key>
+	<string>蘑菇意大利面 (艾明码恰)</string>
+	<key>ハイランダー鉱石 (バンホール)</key>
+	<string>苏格兰高地矿石 (班格)</string>
+	<key>バタービール (イメンマハ)</key>
+	<string>啤酒 (艾明码恰)</string>
+	<key>バンホール産石炭 (バンホール)</key>
+	<string>班格的煤炭 (班格)</string>
+	<key>パララの結晶 (タルティーン)</key>
+	<string>帕拉鲁结晶 (塔汀)</string>
+	<key>フカヒレ (カブ)</key>
+	<string>鲨鱼翅 (卡普港口)</string>
+	<key>ブラゴ平原の北西</key>
+	<string>布拉格平原西北</string>
+	<key>ブラゴ平原レザール醸造場</key>
+	<string>列扎尔酿酒厂</string>
+	<key>ブラゴ平原北</key>
+	<string>布拉格平原北</string>
+	<key>ブラゴ平原東</key>
+	<string>布拉格平原东</string>
+	<key>ベビーポーション (ティルコネイル)</key>
+	<string>婴儿药水 (迪尔科内尔)</string>
+	<key>ベリーグラノーラ (イメンマハ)</key>
+	<string>威化 (艾明码恰)</string>
+	<key>ミニ化粧台 (タラ)</key>
+	<string>迷你梳妆台 (塔拉)</string>
+	<key>ロッキングチェア (タラ)</key>
+	<string>摇椅 (塔拉)</string>
+	<key>人参ポーション (ティルコネイル)</key>
+	<string>人参药水 (迪尔科内尔)</string>
+	<key>円形防護壁の結晶 (タルティーン)</key>
+	<string>环形栅栏结晶 (塔汀)</string>
+	<key>塔拉:影子世界的硫磺蜘蛛(1~8)</key>
+	<string>塔拉:影子世界的硫磺蜘蛛(1~8)</string>
+	<key>塔拉:被影子覆蓋的城市(1~3)</key>
+	<string>塔拉:被影子笼罩的城市(1~3)</string>
+	<key>塔拉:弗魔族的襲擊(1~5)</key>
+	<string>塔拉:弗魔族的袭击(1~5)</string>
+	<key>塔拉:帕爾赫德族的幽靈(1~5)</key>
+	<string>塔拉:帕莱伦赫的幽灵(1~5)</string>
+	<key>塔拉:它們的方式(1~1)</key>
+	<string>塔拉:他们的方式(1~1)</string>
+	<key>塔拉:背後的敵人(1~2)</key>
+	<string>塔拉:背后的敌人(1~2)</string>
+	<key>塔拉:剩餘的黑暗(1~3)</key>
+	<string>塔拉:剩余的黑暗(1~3)</string>
+	<key>塔拉:別的煉金術師們(1~4)</key>
+	<string>塔拉:另外的炼金术士们(1~4)</string>
+	<key>塔爾汀:塔爾汀防禦戰(3~6)</key>
+	<string>塔汀:塔汀防御战(3~6)</string>
+	<key>塔爾汀:多琳的委託(1~3)</key>
+	<string>塔汀:多连的委托(1~3)</string>
+	<key>塔爾汀:塔爾汀佔領戰 I(1~4)</key>
+	<string>塔汀:塔汀占领战 I(1~4)</string>
+	<key>塔爾汀:塔爾汀佔領戰 II(1~3)</key>
+	<string>塔汀:塔汀占领战 II(1~3)</string>
+	<key>塔爾汀:打倒弗魔族指揮官 I(1~2)</key>
+	<string>塔汀:打败弗魔族司令官 I(1~2)</string>
+	<key>塔爾汀:打倒弗魔族指揮官 II(1~3)</key>
+	<string>塔汀:打败弗魔族首领 II(1~3)</string>
+	<key>塔爾汀:打倒暗影巫師(1~8)</key>
+	<string>塔汀:打败暗影巫师(1~8)</string>
+	<key>塔爾汀:引誘(3~3)</key>
+	<string>塔汀:挑衅(3~3)</string>
+	<key>塔爾汀:祭品(1~4)</key>
+	<string>塔汀:祭品(1~4)</string>
+	<key>塔爾汀:救出偵察兵(2~4)</key>
+	<string>塔汀:救出侦查兵(2~4)</string>
+	<key>大理石 (バンホール)</key>
+	<string>大理石 (班格)</string>
+	<key>子供用2段ベッド (タラ)</key>
+	<string>儿童双层床 (塔拉)</string>
+	<key>熱気の結晶 (タルティーン)</key>
+	<string>热气结晶 (塔汀)</string>
+	<key>羊毛ブーツ (ダンバートン)</key>
+	<string>羊毛靴 (敦巴伦)</string>
+	<key>蜘蛛の糸グローブ (ダンバートン)</key>
+	<string>蜘蛛丝手套 (敦巴伦)</string>
+	<key>野生動物の燻製 (イメンマハ)</key>
+	<string>熏制的野味 (艾明码恰)</string>
+	<key>金庫 (ベルファスト)</key>
+	<string>金库 (贝尔法斯特)</string>
+	<key>鉄鞭 (ベルファスト)</key>
+	<string>铁鞭 (贝尔法斯特)</string>
+	<key>黄水晶 (バンホール)</key>
+	<string>黄水晶 (班格)</string>
+	<key>今天是星期五 Elved 愛爾琳秋收 　今日的效果如下 　‧死亡懲罰減少 　‧藥水效果提升 　‧兼職報酬增加</key>
+	<string>今天是星期五 Elved 爱琳秋收 　今日的效果如下 　‧死亡惩罚減少 　‧药水效果提升 　‧兼职报酬增加</string>
+	<key>今天是星期六 Samhain 愛爾琳山夏 　今日的效果如下 　‧年齡成長取得 AP 　‧食物效果提升 　‧探測器效果增加 　‧煉金術成功率增加 　‧素描時允許動物略為移動</key>
+	<string>今天是星期六 Samhain 爱琳 　今日的效果如下 　‧年齡成長取得 AP 　‧食物效果提升 　‧探測器效果增加 　‧煉金術成功率增加 　‧素描時允許動物略為移動</string>
+	<key>今天是星期日 Imbolic 愛爾琳立春 　今日的效果如下 　‧暴擊率提高 　‧增加幸運一擊機率 　‧演奏成功率提升 　‧魔法演奏成功率提升 　‧魔法演奏捕捉怪物(樂譜)成功率提升</key>
+	<string>今天是星期日 Imbolic 愛爾琳立春 　今日的效果如下 　‧暴擊率提高 　‧增加幸運一擊機率 　‧演奏成功率提升 　‧魔法演奏成功率提升 　‧魔法演奏捕捉怪物(樂譜)成功率提升</string>
+	<key>庫爾克勒</key>
+	<string>克拉格</string>
+	<key>杜巴頓</key>
+	<string>敦巴伦</string>
+	<key>班克爾</key>
+	<string>班格</string>
+</dict>
+</plist>
