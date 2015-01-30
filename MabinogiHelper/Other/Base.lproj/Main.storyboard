@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="jgd-kK-uaT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="jgd-kK-uaT">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
@@ -579,11 +579,6 @@
                                         <exclude reference="7cy-VQ-nx1"/>
                                     </mask>
                                     <mask key="constraints">
-                                        <exclude reference="OFE-XD-qzU"/>
-                                        <exclude reference="qR3-wV-Qmu"/>
-                                        <exclude reference="E3I-Es-wpY"/>
-                                        <exclude reference="glV-zD-fk9"/>
-                                        <exclude reference="nHM-MN-JZF"/>
                                         <exclude reference="y2m-X8-lKP"/>
                                         <exclude reference="zdi-MO-fnF"/>
                                         <exclude reference="5Qr-EU-ocC"/>
@@ -597,6 +592,11 @@
                                         <exclude reference="0Ss-Kd-qhZ"/>
                                         <exclude reference="sXp-aO-84m"/>
                                         <exclude reference="zpz-o4-Al1"/>
+                                        <exclude reference="OFE-XD-qzU"/>
+                                        <exclude reference="qR3-wV-Qmu"/>
+                                        <exclude reference="E3I-Es-wpY"/>
+                                        <exclude reference="glV-zD-fk9"/>
+                                        <exclude reference="nHM-MN-JZF"/>
                                     </mask>
                                 </variation>
                                 <variation key="widthClass=compact">
@@ -606,11 +606,6 @@
                                         <include reference="7cy-VQ-nx1"/>
                                     </mask>
                                     <mask key="constraints">
-                                        <include reference="OFE-XD-qzU"/>
-                                        <include reference="qR3-wV-Qmu"/>
-                                        <include reference="E3I-Es-wpY"/>
-                                        <include reference="glV-zD-fk9"/>
-                                        <include reference="nHM-MN-JZF"/>
                                         <include reference="y2m-X8-lKP"/>
                                         <include reference="zdi-MO-fnF"/>
                                         <include reference="5Qr-EU-ocC"/>
@@ -624,6 +619,11 @@
                                         <include reference="0Ss-Kd-qhZ"/>
                                         <include reference="sXp-aO-84m"/>
                                         <include reference="zpz-o4-Al1"/>
+                                        <include reference="OFE-XD-qzU"/>
+                                        <include reference="qR3-wV-Qmu"/>
+                                        <include reference="E3I-Es-wpY"/>
+                                        <include reference="glV-zD-fk9"/>
+                                        <include reference="nHM-MN-JZF"/>
                                     </mask>
                                 </variation>
                             </view>
