@@ -141,10 +141,11 @@
             weatherStr = [weatherStr stringByAppendingString:[NSString stringWithFormat:@"%@\n%@\n%@\n", time, weather.location, weather.weather]];
         }
         self.weatherTextView.text = weatherStr;
+        self.weatherTextView.textColor = [UIColor blackColor];
         
         if ([[self.weatherTextView.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] isEqualToString:@""]) {
             self.weatherTextView.text = @"暂时没有数据哟";
-            self.weatherTextView.textColor = [UIColor blackColor];
+            [self setIfNoNetworking];
         }
         
         [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
