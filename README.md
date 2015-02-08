@@ -57,4 +57,4 @@
 - 问题或意见可联系邮箱 [joshua7v@hotmail.com](mailto://joshua7v@hotmail.com)
 
 ##更多详情
-- 请访问mabihelper.sigmastudio.me
+- 请访问[项目主页](http://mabihelper.sigmastudio.me)
