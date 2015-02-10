@@ -58,6 +58,13 @@ color:#cccccc \
 </dd> \
 "
 
+#define MabiColorCodeGroupTitleYellow @"黄色"
+#define MabiColorCodeGroupTitleRed @"红色"
+#define MabiColorCodeGroupTitleBlue @"蓝色"
+#define MabiColorCodeGroupTitleGreen @"绿色"
+#define MabiColorCodeGroupTitlePurple @"紫色"
+#define MabiColorCodeGroupTitlePink @"粉色"
+
 #import <Foundation/Foundation.h>
 #import "MabiParamMap.h"
 #import "UIImage+MabiTheme.h"

@@ -2082,6 +2082,86 @@
             </objects>
             <point key="canvasLocation" x="417" y="728"/>
         </scene>
+        <!--Mabi Color Code Search Controller-->
+        <scene sceneID="23l-Vk-XR0">
+            <objects>
+                <viewController storyboardIdentifier="MabiColorCodeSearchController" id="FBZ-1n-QHc" customClass="MabiColorCodeSearchController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TGq-3c-qef"/>
+                        <viewControllerLayoutGuide type="bottom" id="MTN-dR-OiD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UaR-wf-wih">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" placeholder="颜色代码 颜色名称" translatesAutoresizingMaskIntoConstraints="NO" id="69j-k8-Y7p">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <color key="barTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="FBZ-1n-QHc" id="lSR-gl-hBl"/>
+                                </connections>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="dm7-tO-XcB">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="FBZ-1n-QHc" id="lof-bX-3t4"/>
+                                    <outlet property="delegate" destination="FBZ-1n-QHc" id="SmI-t9-uKL"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="69j-k8-Y7p" firstAttribute="leading" secondItem="UaR-wf-wih" secondAttribute="leading" id="7y2-WJ-TcO"/>
+                            <constraint firstItem="dm7-tO-XcB" firstAttribute="leading" secondItem="UaR-wf-wih" secondAttribute="leading" id="JMc-dy-rvh"/>
+                            <constraint firstAttribute="bottom" secondItem="dm7-tO-XcB" secondAttribute="bottom" id="OoC-w8-cJd"/>
+                            <constraint firstItem="dm7-tO-XcB" firstAttribute="top" secondItem="69j-k8-Y7p" secondAttribute="bottom" id="PtF-Qc-ui6"/>
+                            <constraint firstAttribute="trailing" secondItem="dm7-tO-XcB" secondAttribute="trailing" constant="7" id="Qeu-lR-MqG">
+                                <variation key="widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstAttribute="trailing" secondItem="69j-k8-Y7p" secondAttribute="trailing" id="WyV-1l-3XZ"/>
+                            <constraint firstItem="69j-k8-Y7p" firstAttribute="top" secondItem="TGq-3c-qef" secondAttribute="bottom" id="hy0-jV-Zsj"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="69j-k8-Y7p"/>
+                                <exclude reference="dm7-tO-XcB"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="7y2-WJ-TcO"/>
+                                <exclude reference="WyV-1l-3XZ"/>
+                                <exclude reference="hy0-jV-Zsj"/>
+                                <exclude reference="JMc-dy-rvh"/>
+                                <exclude reference="OoC-w8-cJd"/>
+                                <exclude reference="PtF-Qc-ui6"/>
+                                <exclude reference="Qeu-lR-MqG"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="69j-k8-Y7p"/>
+                                <include reference="dm7-tO-XcB"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="7y2-WJ-TcO"/>
+                                <include reference="WyV-1l-3XZ"/>
+                                <include reference="hy0-jV-Zsj"/>
+                                <include reference="JMc-dy-rvh"/>
+                                <include reference="OoC-w8-cJd"/>
+                                <include reference="PtF-Qc-ui6"/>
+                                <include reference="Qeu-lR-MqG"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="colorSearchBar" destination="69j-k8-Y7p" id="Hbz-IQ-irv"/>
+                        <outlet property="colorTableView" destination="dm7-tO-XcB" id="t3q-zk-Izv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NQh-YP-r4a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1095" y="727"/>
+        </scene>
         <!--攻略-->
         <scene sceneID="1ee-zJ-MWM">
             <objects>

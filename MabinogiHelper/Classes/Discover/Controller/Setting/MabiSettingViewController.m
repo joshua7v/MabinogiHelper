@@ -13,12 +13,14 @@
 #import "MabiSettingArrowItem.h"
 #import "MabiAdBoardController.h"
 #import "MabiAboutViewController.h"
+#import "MabiColorCodeSearchController.h"
 //#import "MabiSettingCheckItem.h"
 //#import "MabiSettingCheckGroup.h"
 
 @interface MabiSettingViewController ()
 @property (nonatomic, strong) MabiAdBaseController *mabiAdBoardController;
 @property (nonatomic, strong) MabiAboutViewController *mabiAboutVC;
+@property (nonatomic, strong) MabiColorCodeSearchController *mabiColorCodeSearchController;
 @end
 
 @implementation MabiSettingViewController
@@ -31,6 +33,16 @@
         _mabiAdBoardController = adBoardController;
     }
     return _mabiAdBoardController;
+}
+
+- (MabiColorCodeSearchController *)mabiColorCodeSearchController
+{
+    if (!_mabiColorCodeSearchController) {
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        MabiColorCodeSearchController *colorCodeSearchController = [storyboard instantiateViewControllerWithIdentifier:@"MabiColorCodeSearchController"];
+        _mabiColorCodeSearchController = colorCodeSearchController;
+    }
+    return _mabiColorCodeSearchController;
 }
 
 - (MabiAboutViewController *)mabiAboutVC
@@ -139,6 +151,9 @@
             }
             if (arrowItem.destVcClass == [MabiAboutViewController class]) {
                 destVc = self.mabiAboutVC;
+            }
+            if (arrowItem.destVcClass == [MabiColorCodeSearchController class]) {
+                destVc = self.mabiColorCodeSearchController;
             }
             [self.navigationController pushViewController:destVc animated:YES];
         }

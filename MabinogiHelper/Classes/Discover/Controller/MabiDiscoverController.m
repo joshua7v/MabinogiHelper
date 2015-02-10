@@ -10,6 +10,7 @@
 #import "MabiSettingArrowItem.h"
 #import "MabiSettingGroup.h"
 #import "MabiAdBoardController.h"
+#import "MabiColorCodeSearchController.h"
 
 @interface MabiDiscoverController ()
 
@@ -27,9 +28,10 @@
 {
     MabiSettingGroup *group = [self addGroup];
     group.header = @"实用功能";
-    group.footer = @"搜索游戏广告版";
+//    group.footer = @"搜索游戏广告版";
     MabiSettingArrowItem *adBoard = [MabiSettingArrowItem itemWithTitle:@"房屋广告版搜索" destVcClass:[MabiAdBoardController class]];
-    group.items = @[adBoard];
+    MabiSettingArrowItem *colorCodeSearch = [MabiSettingArrowItem itemWithTitle:@"颜色代码搜索" destVcClass:[MabiColorCodeSearchController class]];
+    group.items = @[adBoard, colorCodeSearch];
 }
 
 @end
