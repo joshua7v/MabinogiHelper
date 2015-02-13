@@ -55,16 +55,16 @@
                         </mask>
                     </variation>
                 </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rrj-yM-U3r">
+                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rrj-yM-U3r">
                     <rect key="frame" x="96" y="3" width="193" height="64"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C黄 宠黄" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nte-oh-sbh">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="C黄 宠黄" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nte-oh-sbh">
                             <rect key="frame" x="120" y="20" width="53" height="24"/>
                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00FFCC00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alx-iD-WyD">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="00FFCC00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alx-iD-WyD">
                             <rect key="frame" x="20" y="20" width="65" height="24"/>
                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -76,10 +76,12 @@
                         <constraint firstItem="alx-iD-WyD" firstAttribute="leading" secondItem="rrj-yM-U3r" secondAttribute="leading" constant="20" id="0rH-9S-9Dd"/>
                         <constraint firstAttribute="trailing" secondItem="nte-oh-sbh" secondAttribute="trailing" constant="20" id="3Ow-WE-LLn"/>
                         <constraint firstAttribute="centerY" secondItem="nte-oh-sbh" secondAttribute="centerY" id="Knd-Gh-8kS"/>
+                        <constraint firstAttribute="height" constant="44" id="ZBI-Fp-ogc"/>
                         <constraint firstAttribute="centerY" secondItem="alx-iD-WyD" secondAttribute="centerY" id="vW6-if-kbH"/>
                     </constraints>
                     <variation key="default">
                         <mask key="constraints">
+                            <exclude reference="ZBI-Fp-ogc"/>
                             <exclude reference="0rH-9S-9Dd"/>
                             <exclude reference="vW6-if-kbH"/>
                             <exclude reference="3Ow-WE-LLn"/>
@@ -88,6 +90,7 @@
                     </variation>
                     <variation key="widthClass=compact">
                         <mask key="constraints">
+                            <include reference="ZBI-Fp-ogc"/>
                             <include reference="0rH-9S-9Dd"/>
                             <include reference="vW6-if-kbH"/>
                             <include reference="3Ow-WE-LLn"/>
@@ -102,8 +105,7 @@
                 <constraint firstItem="rrj-yM-U3r" firstAttribute="leading" secondItem="V2a-qy-X1B" secondAttribute="trailing" constant="30" id="ZsG-5c-2Qr"/>
                 <constraint firstItem="V2a-qy-X1B" firstAttribute="leading" secondItem="pEv-5o-uh9" secondAttribute="leading" constant="20" id="e2y-LN-CUl"/>
                 <constraint firstAttribute="trailing" secondItem="rrj-yM-U3r" secondAttribute="trailing" id="hTZ-eW-dD7"/>
-                <constraint firstItem="rrj-yM-U3r" firstAttribute="top" secondItem="pEv-5o-uh9" secondAttribute="top" id="vLP-YR-bxg"/>
-                <constraint firstAttribute="bottom" secondItem="rrj-yM-U3r" secondAttribute="bottom" id="vvL-ye-jBO"/>
+                <constraint firstAttribute="centerY" secondItem="rrj-yM-U3r" secondAttribute="centerY" id="rhp-Ps-Rb9"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <variation key="default">
@@ -111,12 +113,11 @@
                     <exclude reference="V2a-qy-X1B"/>
                 </mask>
                 <mask key="constraints">
-                    <exclude reference="TRH-Dy-lHj"/>
-                    <exclude reference="e2y-LN-CUl"/>
                     <exclude reference="ZsG-5c-2Qr"/>
                     <exclude reference="hTZ-eW-dD7"/>
-                    <exclude reference="vLP-YR-bxg"/>
-                    <exclude reference="vvL-ye-jBO"/>
+                    <exclude reference="rhp-Ps-Rb9"/>
+                    <exclude reference="TRH-Dy-lHj"/>
+                    <exclude reference="e2y-LN-CUl"/>
                 </mask>
             </variation>
             <variation key="widthClass=compact">
@@ -124,12 +125,11 @@
                     <include reference="V2a-qy-X1B"/>
                 </mask>
                 <mask key="constraints">
-                    <include reference="TRH-Dy-lHj"/>
-                    <include reference="e2y-LN-CUl"/>
                     <include reference="ZsG-5c-2Qr"/>
                     <include reference="hTZ-eW-dD7"/>
-                    <include reference="vLP-YR-bxg"/>
-                    <include reference="vvL-ye-jBO"/>
+                    <include reference="rhp-Ps-Rb9"/>
+                    <include reference="TRH-Dy-lHj"/>
+                    <include reference="e2y-LN-CUl"/>
                 </mask>
             </variation>
             <connections>
@@ -137,7 +137,7 @@
                 <outlet property="colorRemarksTextField" destination="nte-oh-sbh" id="NQ0-yf-b3p"/>
                 <outlet property="iconView" destination="Ckr-Vh-t47" id="nUA-Qd-bt7"/>
             </connections>
-            <point key="canvasLocation" x="229" y="319"/>
+            <point key="canvasLocation" x="191" y="228"/>
         </view>
     </objects>
 </document>

@@ -15,9 +15,10 @@
 #import "MabiColorCodeItem.h"
 #import "MabiColorCodeGroups.h"
 #import "MabiColorCodeGroup.h"
+#import "MabiCommon.h"
 
-@interface MabiColorCodeSearchController() <UISearchBarDelegate, UITabBarDelegate, UITableViewDataSource>
-@property (weak, nonatomic) IBOutlet UISearchBar *colorSearchBar;
+@interface MabiColorCodeSearchController() <UISearchBarDelegate, UITabBarDelegate, UITableViewDataSource, UIScrollViewDelegate>
+//@property (weak, nonatomic) IBOutlet UISearchBar *colorSearchBar;
 @property (weak, nonatomic) IBOutlet UITableView *colorTableView;
 
 @property (nonatomic, strong) MabiColorCodeItem *colorCodeItem;
@@ -47,12 +48,36 @@
 {
     [super viewDidLoad];
     
-    [self.colorSearchBar becomeFirstResponder];
+    self.colorTableView.backgroundColor = [UIColor colorWithHexString:@"F2F2F2"];
+    
+//    self.colorSearchBar.tintColor = [UIColor colorWithHexString:MabiThemeColorPink];
+//    self.colorSearchBar.barTintColor = [UIColor colorWithHexString:MabiThemeColorPink];
+//    self.colorSearchBar.hidden = YES;
    
     [self.colorTableView registerNib:[UINib nibWithNibName:MabiColorCodeSearchItem bundle:nil] forCellReuseIdentifier:MabiColorCodeSearchItemCell];
     
 }
 
+//- (void)viewWillAppear:(BOOL)animated
+//{
+//    [super viewWillAppear:animated];
+//    
+//    self.navigationController.navigationBar.hidden = YES;
+//}
+//
+//- (void)viewWillDisappear:(BOOL)animated
+//{
+//    [super viewWillDisappear:animated];
+//    
+//    self.navigationController.navigationBar.hidden = NO;
+//}
+//
+//- (void)viewDidAppear:(BOOL)animated
+//{
+//    [super viewDidAppear:animated];
+//    
+//    [self.colorSearchBar becomeFirstResponder];
+//}
 
 #pragma mark - tableView DataSource
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -93,5 +118,15 @@
     }
     return needed;
 }
+
+//- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
+//{
+//    [self.colorSearchBar resignFirstResponder];
+//}
+
+//- (UIBarPosition)positionForBar:(id<UIBarPositioning>)bar
+//{
+//    return UIBarPositionTopAttached;
+//}
 
 @end

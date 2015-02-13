@@ -31,6 +31,7 @@
 
 - (void)awakeFromNib {
     // Initialization code
+    self.colorCodeTextField.font = [UIFont fontWithName:@"MONACO" size:13];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

@@ -154,6 +154,7 @@
             }
             if (arrowItem.destVcClass == [MabiColorCodeSearchController class]) {
                 destVc = self.mabiColorCodeSearchController;
+                destVc.title = @"颜色代码";
             }
             [self.navigationController pushViewController:destVc animated:YES];
         }

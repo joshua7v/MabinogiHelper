@@ -61,8 +61,7 @@ static NSArray *_groupGreen;
     if (!_groupYellow) {
         _groupYellow = @[
                          @"00FFCC00",
-                         @"00FFF502",
-                         @"000000FF"
+                         @"00FFF502"
                          ];
     }
     return _groupYellow;

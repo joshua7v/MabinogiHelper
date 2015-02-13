@@ -22,16 +22,25 @@
     [super viewDidLoad];
     
     [self setupGroup0];
+    [self setupGroup1];
 }
 
 - (void)setupGroup0
 {
     MabiSettingGroup *group = [self addGroup];
-    group.header = @"实用功能";
+//    group.header = @"实用功能";
 //    group.footer = @"搜索游戏广告版";
     MabiSettingArrowItem *adBoard = [MabiSettingArrowItem itemWithTitle:@"房屋广告版搜索" destVcClass:[MabiAdBoardController class]];
+    group.items = @[adBoard];
+}
+
+- (void)setupGroup1
+{
+    MabiSettingGroup *group = [self addGroup];
+//    group.header = @"实用功能";
+//    group.footer = @"搜索游戏广告版";
     MabiSettingArrowItem *colorCodeSearch = [MabiSettingArrowItem itemWithTitle:@"颜色代码搜索" destVcClass:[MabiColorCodeSearchController class]];
-    group.items = @[adBoard, colorCodeSearch];
+    group.items = @[colorCodeSearch];
 }
 
 @end
