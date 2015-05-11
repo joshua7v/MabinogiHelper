@@ -18,7 +18,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [[NSUserDefaults standardUserDefaults] setObject:MabiThemeColorPink forKey:MabiPreferenceThemeColorKey];
     [[NSUserDefaults standardUserDefaults] setObject:MabiAdItemDefaultRow forKey:MabiPreferenceNumberOfRowsKey];
     [[NSUserDefaults standardUserDefaults] synchronize];
     
